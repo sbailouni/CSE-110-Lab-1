@@ -1,0 +1,129 @@
+.section-1 {
+    background-color:rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-2 {
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-3 {
+    background-color:rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    font-size: 28px;
+}
+
+.one {
+    background-color: #182b49;
+    color: white; 
+    max-height: 500px;
+    font-size: 28px;
+    overflow: scroll;
+    padding: 16px;
+}
+
+.two {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px; 
+    font-size: 28px;
+    overflow: scroll;
+    padding: 16px;
+}
+
+.three {
+    background-color: #182b49;
+    color: white; 
+    max-height: 500px;
+    font-size: 28px;
+    overflow: scroll;
+    padding: 16px;
+}
+
+.four {
+    background-color: #182b49;
+    color: white; 
+    max-height: 500px;
+    font-size: 28px;
+    overflow: scroll;
+    padding: 16px;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color:white;
+    font-size: 28px;
+    width: 100%;
+    padding-left: 16px;
+}
+
+#navbar a {
+    float: left;
+    font-size: 28px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: #182b49;
+    font-size: 28px;
+    color: white;
+}
+
+#navbar-logo img {
+    max-width: 400px;
+    padding-left: 20px;
+}
+
+h4 {
+    scroll-margin-top: 80px;
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #182b49;
+    color: white; 
+} */
